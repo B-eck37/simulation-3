@@ -1,0 +1,96 @@
+.dash-profile {
+    height: 150px;
+    width: 300px;
+    background-color: yellow;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	/* justify-content: center; */
+}
+
+.welcome {
+    width: 450px;
+    height: 150px;
+    background-color: blue;
+    margin-left: 20px;
+}
+
+.recommended-outer {
+    height: 1000px;
+    width: 900px;
+    margin: 20px 25px;
+    background-color: orange;
+
+}
+
+.recommended-titles{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: red;
+    height: 75px;
+    width: 900px;
+}
+
+h4 {
+    height: 20px;
+    width: 50px;
+    color: black;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    width: 100vw;
+}
+
+.dashboard {
+    justify-content: center;
+    color: white;
+}
+
+.button {
+ background-color: lightgray;
+ text-decoration: none;
+ color: black;
+ width: 75px;
+}
+.select {
+    height: 25px;
+}
+
+.list {
+    /* display: flex; */
+    /* justify-content: center; */
+    height: 850px;
+    width: 700px;
+    background-color: white;
+    margin: 25px 100px;
+}
+
+.left-side {
+    height: 150px;
+    width: 150px;
+    /* box-sizing: content-box; */
+}
+
+.right-side {
+    height: 150px;
+    width: 150px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	/* justify-content: center; */
+}
+
+.me {
+    /* box-sizing: content-box; */
+    margin-top: 25px;
+    height: 100px;
+    width: 100px;
+    border: solid orange 2px;
+    background-color: white;
+    
+}
