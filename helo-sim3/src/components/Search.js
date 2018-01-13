@@ -14,10 +14,15 @@ class Search extends Component {
             <div>
                 <Header />
                 <div className='outer-box'>
-
-                <section id='inner-box'>
-                    <button>Search</button>
-                </section>
+                    <div className='inner-box'>
+                        <select className='select'>
+                            <option>First Name</option>
+                            <option>Last Name</option>
+                        </select>
+                        <input></input>
+                        <button>Search</button>
+                        <button>Reset</button>
+                    </div>
                 </div>
             </div>
         )

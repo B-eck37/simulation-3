@@ -1,27 +1,27 @@
 // require('dotenv').config();
-// const express = require('express');
-// const session = require('express-session');
-// const massive = require('massive');
-// const bodyParser = require('body-parser');
-// const axios = require('axios');
+const express = require('express');
+const session = require('express-session');
+const massive = require('massive');
+const bodyParser = require('body-parser');
+const axios = require('axios');
 
-// const app = express();
+const app = express();
 
-// app.use(express.static(`${__dirname}../../public`))
+app.use(express.static(`${__dirname}../../public`))
 
-// app.use(bodyParser.json());
+app.use(bodyParser.json());
 
-// // app.use(session({
-// //     secret: process.env.SESSION_SECRET,
-// //     saveUninitialized: false,
-// //     resave: false,
-// // }))
+// app.use(session({
+//     secret: process.env.SESSION_SECRET,
+//     saveUninitialized: false,
+//     resave: false,
+// }))
 
-// // massive(process.env.CONNECTION_STRING).then( db => {
-// //     app.set('db', db)
-// // }).catch(error => {
-// //     console.log('error', error);
-// // })
+// massive(process.env.CONNECTION_STRING).then( db => {
+//     app.set('db', db)
+// }).catch(error => {
+//     console.log('error', error);
+// })
 
 
 // // app.get('/api/auth/login', (req, res) => {
@@ -39,6 +39,6 @@
 // //     res.status(201).json(req.session.user)
 // // })
 
-// const PORT = 3035
+const PORT = 3035
 
-// app.listen(PORT, () => console.log(`We got our ears on ${PORT}`));
+app.listen(PORT, () => console.log(`We got our ears on ${PORT}`));

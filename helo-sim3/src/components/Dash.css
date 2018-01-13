@@ -4,7 +4,8 @@
     background-color: yellow;
     display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    box-shadow: 5px 5px 5px -4px rgba(140,140,140,1);
 	/* justify-content: center; */
 }
 
@@ -13,14 +14,15 @@
     height: 150px;
     background-color: blue;
     margin-left: 20px;
+    box-shadow: 5px 5px 5px -4px rgba(140,140,140,1);
 }
 
 .recommended-outer {
     height: 1000px;
     width: 900px;
-    margin: 20px 25px;
+    margin: 0 auto;
     background-color: orange;
-
+    box-shadow: 5px 5px 5px -4px rgba(140,140,140,1);
 }
 
 .recommended-titles{

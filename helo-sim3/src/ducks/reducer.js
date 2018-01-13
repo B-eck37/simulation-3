@@ -14,7 +14,6 @@ export default function reducer(state=initialState, action){
     }
 }
 
-
 //Action Creator
 export const login = (user) => {
     console.log(user)

@@ -8,27 +8,6 @@ import {connect} from 'react-redux';
 import './Login.css'
 
 class Login extends Component {
-    // constructor(){
-    //     super();
-    //     this.state = {
-    //         user: null,
-    //         secureDataResponse: null
-    //     }
-    //     // this.login = this.login.bind(this);
-    //     this.lock = null;
-    // }
-
-    // componentDidMount(){
-    //     this.lock = new Auth0Lock(process.env.REACT_APP_AUTH0_CLIENT_ID, process.env.REACT_APP_AUTH0_DOMAIN)
-    //     this.lock.on('authenticated', this.onAuthenticated)
-    //     axios.get('/api/auth/logout').then(response => {
-    //       this.setState({user: response.data});
-    //     })
-    //   }
-
-    //   login(){
-    //       this.lock.show();
-    //   }
   
     render() {
         console.log(this.props)
