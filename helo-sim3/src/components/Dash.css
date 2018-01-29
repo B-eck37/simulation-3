@@ -1,7 +1,7 @@
 .dash-profile {
     height: 150px;
-    width: 300px;
-    background-color: yellow;
+    width: 320px;
+    background-color: white;
     display: flex;
 	flex-direction: row;
     flex-wrap: nowrap;
@@ -10,9 +10,10 @@
 }
 
 .welcome {
-    width: 450px;
+    width: 500px;
     height: 150px;
-    background-color: blue;
+    background-color: white;
+    color: black;
     margin-left: 20px;
     box-shadow: 5px 5px 5px -4px rgba(140,140,140,1);
 }
@@ -51,6 +52,7 @@ h4 {
 .dashboard {
     justify-content: center;
     color: white;
+    background-color: rgb(224, 224, 224);
 }
 
 .button {
@@ -80,7 +82,7 @@ h4 {
 
 .right-side {
     height: 150px;
-    width: 150px;
+    width: 170px;
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
